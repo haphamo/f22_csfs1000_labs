@@ -1,0 +1,45 @@
+:root {
+  --blue: #90f1ef;
+  --pink: #ffd6e0;
+  --yellow: #f6bd60;
+  --dark-blue: #0a1045;
+  --green: #7bf1a8;
+}
+html {
+  height: 100%;
+}
+
+h1 {
+  font-family: 'Noto Serif', serif;
+  color: var(--yellow);
+  font-size: 60px;
+}
+
+body {
+  font-family: 'Sen', sans-serif;
+  height: 100%;
+}
+
+p {
+  font-size: 32px;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.content {
+  width: 45%;
+  padding: 0 2rem;
+}
+
+img {
+  width: 80%;
+}
+
+.img {
+  text-align: center;
+}
