@@ -10,36 +10,71 @@ html {
 }
 
 h1 {
-  font-family: 'Noto Serif', serif;
+  font-family: 'Poppins', sans-serif;
   color: var(--yellow);
   font-size: 60px;
 }
 
 body {
-  font-family: 'Sen', sans-serif;
   height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: center;
+  margin: 0 1rem;
+  max-width: 900px;
 }
 
 p {
   font-size: 32px;
+  font-family: 'PT Serif', serif;
 }
 
-.container {
-  height: 100%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+.first-p {
+  color: var(--green);
+}
+
+.second-p {
+  color: var(--blue);
 }
 
 .content {
-  width: 45%;
   padding: 0 2rem;
 }
 
 img {
-  width: 80%;
+  width: 60%;
 }
 
 .img {
   text-align: center;
+}
+
+/* MEDIA QUERIES (RESPONSIVENESS) */
+@media screen and (min-width: 468px) {
+  /* Apply for all screens bigger than 1920px */
+  h1 {
+    color: var(--yellow);
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  /* Apply for all screens bigger than 1920px */
+  h1 {
+    color: var(--pink);
+  }
+  main {
+    flex-direction: row;
+    margin: 0 10rem;
+  }
+
+  img {
+    width: 100%;
+  }
 }
