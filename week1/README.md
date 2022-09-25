@@ -1,12 +1,28 @@
 ## Creating a Webpage from a Figma Design
 
-Figma Design [here](https://www.figma.com/file/77OFKcKrEwPd7YxZndxett/Happy-Dog-Cafe?node-id=0%3A1)
+
+
+<details><summary>Figma Design (https://www.figma.com/file/77OFKcKrEwPd7YxZndxett/Happy-Dog-Cafe?node-id=0%3A1)</summary>
+
+![Screen Shot 2022-09-24 at 2 14 59 PM](https://user-images.githubusercontent.com/54293301/192155990-650f253b-98a4-4797-8cfd-41c55152f5f6.png)
+
+</details>
+
 
 You can clone this project and play around with the files
 
 ### Creating HTML file
 
+
 Generate a template by typing `html:5` and hitting tab on the keyboard or selecting it
+<details><summary>Demo</summary>
+
+
+https://user-images.githubusercontent.com/54293301/192156022-decc3937-18d9-4131-a6b9-99510c3b17fe.mov
+
+
+</details>
+
 
 #### Using semantic HTML
 
@@ -26,6 +42,10 @@ Fonts are imported in the `<head>` of the html file
 
 There are two styling properties that can add spacing <strong>margin</strong> and <strong>padding</strong>
 Margin is spacing added <strong>outside</strong> the element, while padding is adding it <strong>inside</strong>
+
+
+https://user-images.githubusercontent.com/54293301/192155964-f330fbf3-0de1-4ed6-a2c3-755a7310bb8c.mov
+
 
 #### Layout Methods
 
@@ -49,10 +69,26 @@ Right click and Inspect
 
 #### Responsiveness
 
-- media queries
+- Good practice is to design for smaller devices first and then desktop
 
+![Screen Shot 2022-09-25 at 1 09 49 PM](https://user-images.githubusercontent.com/54293301/192156152-c8bb37b7-b109-452b-9db0-ea177b68cef7.png)
+
+```javascript
+This is the syntax, it consists of 4 parts
+1. @media Rule which indicates that it's a media query
+2. the [media type](https://developer.mozilla.org/en-US/docs/Web/CSS/@media#media_types) -> screen
+3. the [operator](https://developer.mozilla.org/en-US/docs/Web/CSS/@media#media_types) -> and
+4. the feature (the environment you're applying the specific styles to) -> (min-width: 468px)
+
+@media screen and (min-width: 468px) {
+  h1 {
+    color: yellow;
+    text-align: center;
+  }
+}
+```
 #### Final notes
 
-- google will usually have solutions when you find your self stuck, you just gotta know the right questions to ask it
+- Google will usually have solutions when you find your self stuck, you just gotta know the right questions to ask it
 - Use the devTools, it will allow you to manipulate and play around with the html and css without applying any code
 - There is a lot of information out there, and a good way to start learning is to start building something!
