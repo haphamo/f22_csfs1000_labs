@@ -43,8 +43,10 @@ Fonts are imported in the `<head>` of the html file
 There are two styling properties that can add spacing <strong>margin</strong> and <strong>padding</strong>
 Margin is spacing added <strong>outside</strong> the element, while padding is adding it <strong>inside</strong>
 
+<details><summary>demo video</summary>
 
-https://user-images.githubusercontent.com/54293301/192155964-f330fbf3-0de1-4ed6-a2c3-755a7310bb8c.mov
+ https://user-images.githubusercontent.com/54293301/192155964-f330fbf3-0de1-4ed6-a2c3-755a7310bb8c.mov
+</details>
 
 
 #### Layout Methods
@@ -65,7 +67,14 @@ Right click and Inspect
 #### Adding images
 
 - get the url from the web
+```javascript
+<img src="https://post.medicalnewstoday.com/wp-content/uploads/sites/3/2020/02/322868_1100-800x825.jpg" />
+```
+
 - download image into project and specify the path in the src attribute
+```javascript
+<img src="assets/dog.png" />
+```
 
 #### Responsiveness
 
@@ -73,13 +82,13 @@ Right click and Inspect
 
 ![Screen Shot 2022-09-25 at 1 09 49 PM](https://user-images.githubusercontent.com/54293301/192156152-c8bb37b7-b109-452b-9db0-ea177b68cef7.png)
 
-```javascript
 This is the syntax, it consists of 4 parts
 1. @media Rule which indicates that it's a media query
 2. the [media type](https://developer.mozilla.org/en-US/docs/Web/CSS/@media#media_types) -> screen
 3. the [operator](https://developer.mozilla.org/en-US/docs/Web/CSS/@media#media_types) -> and
 4. the feature (the environment you're applying the specific styles to) -> (min-width: 468px)
 
+```javascript
 @media screen and (min-width: 468px) {
   h1 {
     color: yellow;
