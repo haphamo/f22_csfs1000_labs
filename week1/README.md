@@ -1,28 +1,21 @@
 ## Creating a Webpage from a Figma Design
 
-
-
 <details><summary>Figma Design (https://www.figma.com/file/77OFKcKrEwPd7YxZndxett/Happy-Dog-Cafe?node-id=0%3A1)</summary>
 
 ![Screen Shot 2022-09-24 at 2 14 59 PM](https://user-images.githubusercontent.com/54293301/192155990-650f253b-98a4-4797-8cfd-41c55152f5f6.png)
 
 </details>
 
-
 You can clone this project and play around with the files
 
 ### Creating HTML file
 
-
 Generate a template by typing `html:5` and hitting tab on the keyboard or selecting it
 <details><summary>Demo</summary>
 
-
 https://user-images.githubusercontent.com/54293301/192156022-decc3937-18d9-4131-a6b9-99510c3b17fe.mov
 
-
 </details>
-
 
 #### Using semantic HTML
 
@@ -35,8 +28,11 @@ For example, using `<strong>` instead of `<br>` and when you're creating a list 
 #### Importing fonts
 
 Google has a resource for fonts that can be easily used [https://fonts.google.com/](https://fonts.google.com/)
+1. Select the fonts you'd like to use
+2. Copy the code snippet and paste them in the `<head>` of the html file
+3. Use them by declaring `font-family: {font name}`
 
-Fonts are imported in the `<head>` of the html file
+![Screen Shot 2022-09-25 at 1 30 42 PM](https://user-images.githubusercontent.com/54293301/192157001-de747441-adbc-4f6b-8d39-1f595572d5a6.png)
 
 #### Spacing: Margin/Padding
 
